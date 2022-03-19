@@ -3,7 +3,7 @@ image: Visual Studio 2019
 environment:
   PYTHON: C:\Python38-x64
 install:
-- cmd: '"%PYTHON%\python.exe" -m pip install requirements.txt '
+- cmd: '"%PYTHON%\python.exe" -m pip install numpy opencv-python tqdm scenedetect[opencv,progress_bar] psutil pypiwin32 PyQt5 setuptools Av1an-minimal '
 - cmd: '"%PYTHON%\python.exe" -m pip install pyinstaller scipy '
 build_script:
 - cmd: '"%PYTHON%\Scripts\pyinstaller" --onefile qenc.py --icon=app.ico'
