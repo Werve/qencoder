@@ -3,6 +3,6 @@ opencv-python
 tqdm
 psutil~=5.7.3
 PyQt5~=5.15.2
-Av1an
+Av1an-minimal
 scenedetect~=0.5.4.1
 setuptools~=51.0.0
